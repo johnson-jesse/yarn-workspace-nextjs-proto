@@ -5,10 +5,11 @@
   "private": true,
   "scripts": {
     "test": "cypress run",
-    "test:dashboard": "cypress open"
+    "test:dash": "cypress open"
   },
   "devDependencies": {
-    "@types/cypress": "^1.1.3",
-    "cypress": "^11.0.1"
+    "cypress": "^11.0.1",
+    "next": "12.3.2",
+    "@snap/ui": "*"
   }
 }

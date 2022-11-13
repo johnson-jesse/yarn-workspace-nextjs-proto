@@ -14,10 +14,8 @@
     "dev": "yarn workspace web dev",
     "build": "yarn workspace web build",
     "start": "yarn workspace web start",
-    "test": "yarn workspace web test",
-    "test:dash": "yarn workspace web test:dashboard",
-    "e2e": "yarn workspace qa test",
-    "e2e:dash": "yarn workspace qa test:dashboard",
+    "test": "yarn workspace qa test",
+    "test:dash": "yarn workspace qa test:dash",
     "clean": "rm -rf dist node_modules **/*/node_modules"
   }
 }

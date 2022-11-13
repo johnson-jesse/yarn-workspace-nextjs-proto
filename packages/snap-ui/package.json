@@ -1,5 +1,5 @@
 {
-  "name": "snap-ui",
+  "name": "@snap/ui",
   "version": "1.0.0",
   "description": "Application boundary for SnapAttack UI components",
   "main": "./src/index.tsx",
