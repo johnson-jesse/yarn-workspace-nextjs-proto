@@ -1,0 +1,23 @@
+{
+  "name": "basic-workspace-practice",
+  "version": "1.0.0",
+  "description": "trying to understand and setup a workspace",
+  "main": "index.js",
+  "author": "Jesse A Johnson",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace web dev",
+    "build": "yarn workspace web build",
+    "start": "yarn workspace web start",
+    "test": "yarn workspace web test",
+    "test:dash": "yarn workspace web test:dashboard",
+    "e2e": "yarn workspace qa test",
+    "e2e:dash": "yarn workspace qa test:dashboard",
+    "clean": "rm -rf dist node_modules **/*/node_modules"
+  }
+}
