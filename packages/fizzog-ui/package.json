@@ -1,0 +1,19 @@
+{
+  "name": "@fizzog/ui",
+  "version": "1.0.0",
+  "description": "Basic building blocks of our component library",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "author": "Jesse A Johnson",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "typescript": "^4.9.3",
+    "tsconfig": "*",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.14",
+    "react": "^18.2.0"
+  }
+}

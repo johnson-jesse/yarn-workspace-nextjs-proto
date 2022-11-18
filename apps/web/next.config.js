@@ -2,8 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  trailingSlash: true,
-  distDir: '../../dist'
+  trailingSlash: false,
+  distDir: 'dist',
+  experimental: {
+    transpilePackages: ["@fizzog/ui", "@fizzog/sx"],
+  }
 }
 
 module.exports = nextConfig

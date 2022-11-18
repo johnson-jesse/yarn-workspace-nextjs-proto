@@ -1,0 +1,2 @@
+### @fizzog/ui
+Basic building blocks of our component library. Wrappers around our component library of choice and other custom, non business logic components our product may need. Input sliders or other funkiness. If a standard component here requires specific customization, move that to @fizzog/sx. The files here should be as pure as possible

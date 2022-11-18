@@ -1,11 +1,14 @@
 {
-  "name": "basic-workspace-practice",
+  "name": "fizzog-workspace-sandbox",
   "version": "1.0.0",
-  "description": "trying to understand and setup a workspace",
-  "main": "index.js",
+  "description": "Setting up a basic sandbox based on Vercel's TurboRepo but without the fluff",
   "author": "Jesse A Johnson",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "packageManager": "yarn@1.22.19",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -16,6 +19,7 @@
     "start": "yarn workspace web start",
     "test": "yarn workspace qa test",
     "test:dash": "yarn workspace qa test:dash",
-    "clean": "rm -rf dist node_modules **/*/node_modules"
+    "reset": "rm -rf **/*/dist **/*/.next",
+    "reset:hard": "yarn reset && rm -rf node_modules **/*/node_modules"
   }
 }

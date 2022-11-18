@@ -13,11 +13,11 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 import './commands'
-
 import { mount } from 'cypress/react18'
+import React from 'react';
 
-function _mount(jsx, options, rerenderKey) {
+function inject(jsx: JSX.Element) {
     return mount(<div style={{ border: '2px solid orange' }} children={jsx} />);
 }
 
-Cypress.Commands.add('mount', _mount)
+Cypress.Commands.add('inject', inject)
