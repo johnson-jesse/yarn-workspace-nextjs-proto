@@ -1,13 +1,17 @@
 import { SimpleDialog } from "@fizzog/sx";
 import { Button } from "@fizzog/ui";
+import React from "react";
 
 export default function Thing() {
+  const [open, setOpen] = React.useState(false);
+  const handleClose = () => setOpen(!open)
+
   return (
     <>
-      <Button color="error" variant="contained">
-        Hello MUI Button
+      <Button color="primary" variant="contained" onClick={handleClose}>
+        Custom MUI Button
       </Button>
-      <SimpleDialog open={false} title="Hello MUI Button">
+      <SimpleDialog open={open} title="Hello Lorem" onClose={handleClose}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
         ligula lacus, interdum et ornare at, tristique id sapien. Maecenas
         laoreet vestibulum ex vel interdum. Fusce dapibus rhoncus gravida. Nulla

@@ -14,10 +14,10 @@
 // ***********************************************************
 import './commands'
 import { mount } from 'cypress/react18'
-import React from 'react';
+import { Theme } from '@fizzog/ui';
 
 function inject(jsx: JSX.Element) {
-    return mount(<div style={{ border: '2px solid orange' }} children={jsx} />);
+    return mount(<Theme>{jsx}</Theme>);
 }
 
 Cypress.Commands.add('inject', inject)
