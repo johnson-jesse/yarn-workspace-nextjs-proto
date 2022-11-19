@@ -20,6 +20,10 @@
     "test": "yarn workspace qa test",
     "test:dash": "yarn workspace qa test:dash",
     "reset": "rm -rf **/*/dist **/*/.next",
-    "reset:hard": "yarn reset && rm -rf node_modules **/*/node_modules"
+    "reset:hard": "yarn reset && rm -rf node_modules **/*/node_modules",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0"
   }
 }

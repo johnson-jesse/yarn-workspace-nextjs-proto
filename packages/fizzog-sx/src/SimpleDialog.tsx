@@ -1,5 +1,5 @@
-import React from "react";
-import { Dialog, DialogContent, DialogTitle } from "@fizzog/ui";
+import React from 'react';
+import { Dialog, DialogContent, DialogTitle } from '@fizzog/ui';
 
 export type SimpleDialogProps = {
   children: React.ReactNode;
@@ -10,10 +10,7 @@ export type SimpleDialogProps = {
 
 export default function SimpleDialog({ onClose = () => {}, ...props }: SimpleDialogProps) {
   return (
-    <Dialog
-      open={props.open}
-      onClose={onClose}
-    >
+    <Dialog open={props.open} onClose={onClose}>
       <DialogTitle>{props.title}</DialogTitle>
       <DialogContent dividers>{props.children}</DialogContent>
     </Dialog>
