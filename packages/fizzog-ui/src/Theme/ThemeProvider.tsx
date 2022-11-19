@@ -1,9 +1,9 @@
-import { ThemeProvider } from "@mui/material";
-import { ReactElement, ReactFragment, ReactPortal } from "react";
-import theme from "./theme";
+import { ThemeProvider } from '@mui/material';
+import { ReactElement, ReactFragment, ReactPortal } from 'react';
+import theme from './theme';
 
 export default function ThemeProviders({
-  children,
+  children
 }: {
   children: ReactElement | string | number | ReactFragment | ReactPortal;
 }) {
