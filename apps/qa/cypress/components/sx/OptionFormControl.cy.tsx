@@ -21,12 +21,12 @@ function Container() {
             {
               label: 'Small',
               value: 'small',
-              size: 'small',
+              size: 'small'
             },
             {
               label: 'Medium',
               value: 'medium',
-              size: 'medium',
+              size: 'medium'
             },
             {
               label: 'Disabled',

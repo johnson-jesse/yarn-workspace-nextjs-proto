@@ -5,8 +5,8 @@ const nextConfig = {
   trailingSlash: false,
   distDir: 'dist',
   experimental: {
-    transpilePackages: ["@fizzog/ui", "@fizzog/sx"],
+    transpilePackages: ['@fizzog/ui', '@fizzog/sx']
   }
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

@@ -5,7 +5,6 @@ import React from 'react';
 export default function Thing() {
   const [open, setOpen] = React.useState(false);
   const handleClose = () => setOpen(!open);
-  console.log("I'm a thing");
 
   return (
     <>

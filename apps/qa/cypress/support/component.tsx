@@ -12,12 +12,12 @@
 // You can read more here:
 // https://on.cypress.io/configuration
 // ***********************************************************
-import './commands'
-import { mount } from 'cypress/react18'
+import './commands';
+import { mount } from 'cypress/react18';
 import { Theme } from '@fizzog/ui';
 
 function inject(jsx: JSX.Element) {
-    return mount(<Theme>{jsx}</Theme>);
+  return mount(<Theme>{jsx}</Theme>);
 }
 
-Cypress.Commands.add('inject', inject)
+Cypress.Commands.add('inject', inject);
