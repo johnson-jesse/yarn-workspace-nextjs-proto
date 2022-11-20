@@ -1,2 +1,2 @@
-export { default as SimpleDialog } from './SimpleDialog';
 export * from './SimpleDialog';
+export * from './OptionFormControl';

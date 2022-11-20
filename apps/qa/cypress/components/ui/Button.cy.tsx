@@ -39,6 +39,12 @@ function Container({ variant }: { variant: ButtonProps["variant"] }) {
       <Button variant={variant} color="success" disabled>
         success
       </Button>
+      <Button variant={variant} color="info">
+        info
+      </Button>
+      <Button variant={variant} color="info" disabled>
+        info
+      </Button>
     </Paper>
   );
 }

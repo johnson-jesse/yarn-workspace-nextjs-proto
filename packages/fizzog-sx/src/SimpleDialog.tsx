@@ -8,7 +8,7 @@ export type SimpleDialogProps = {
   title: string;
 };
 
-export default function SimpleDialog({ onClose = () => {}, ...props }: SimpleDialogProps) {
+export function SimpleDialog({ onClose = () => {}, ...props }: SimpleDialogProps) {
   return (
     <Dialog open={props.open} onClose={onClose}>
       <DialogTitle>{props.title}</DialogTitle>
