@@ -2,7 +2,7 @@
   "name": "fizzog-workspace-sandbox",
   "version": "1.0.0",
   "description": "Setting up a basic sandbox based on Vercel's TurboRepo but without the fluff",
-  "author": "Jesse A Johnson",
+  "author": "Jesse A Johnson <jesse@fizzog.io> (https://fizzog.io/)",
   "license": "MIT",
   "private": true,
   "engines": {
