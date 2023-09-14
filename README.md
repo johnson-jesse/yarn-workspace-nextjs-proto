@@ -4,7 +4,6 @@ This project leverages yarn workspaces to create a [monorepo](https://en.wikiped
 Testing is also made easier with an e2e framework brought in-house and triggered through pre-commits if desired. Using Cypress, we also gain component testing that can be used to replace both React Testing Library AND Storybook. Huge wins in language continuity by having all this testing through one API like Cypress.
 
 ## Setup
-As usual with SnapAttack FE:
 ```bash
 yarn install
 ```
